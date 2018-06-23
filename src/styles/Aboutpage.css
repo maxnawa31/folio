@@ -1,0 +1,92 @@
+* { margin: 0; padding: 0; }
+
+.aboutpage-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('../images/bonsai.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Karla');
+
+.headline-title {
+  color: white;
+  font-weight: bold;
+  font-family: 'Karla';
+  margin-left: 4%;
+  padding-top: 5%;
+  font-size: 2rem;
+  width: 60%;
+}
+
+.row-container {
+  display: flex;
+  flex-direction: 'row';
+  margin-top: 5%;
+}
+
+.column-container {
+  display:flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.column-container h3 {
+  color: #FF7A0C;
+  margin-bottom: 3%;
+}
+
+.column-container p {
+  color: white;
+  margin-bottom: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .headline-title {
+      font-size: 1.5rem;
+    }
+    .column-container {
+      padding-left: 4%;
+      padding-right: 2%;
+      margin-top: 5%;
+    }
+}
+
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+    .headline-title {
+      font-size: 1.5rem;
+    }
+
+}
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+    .headline-title {
+      font-size: 1.5rem;
+    }
+}

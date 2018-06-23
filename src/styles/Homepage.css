@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Karla');
+
+
 .homepage-container {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('../images/blur.jpg');
   background-size: cover;
@@ -11,13 +14,13 @@
   /* border: 1px solid white; */
   margin: 0 auto;
   font-size: 2rem;
-  position: fixed;
+  position: absolute;
   top: 50%;
   left: 50%;
   /* bring your own prefixes */
   transform: translate(-50%, -50%);
   color: rgb(173,177,177);
-
+  font-family: 'Karla';
 }
 
 
@@ -37,6 +40,33 @@
   and (min-device-width: 375px)
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2) {
+    .text-box{
+      width: 80%;
+      font-size: 1.25rem;
+
+
+    }
+}
+
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+    .homepage-container {
+      width: 100%;
+    }
+    .text-box{
+      width: 80%;
+      font-size: 1.25rem;
+
+
+    }
+}
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3) {
     .text-box{
       width: 80%;
       font-size: 1.25rem;

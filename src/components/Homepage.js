@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Homepage.css'
-const Homepage = () => {
+const HomePage = () => {
   return (
     <div className='homepage-container'>
       <div className='text-box'>
@@ -11,4 +11,4 @@ const Homepage = () => {
   )
 }
 
-export default Homepage;
+export default HomePage;
