@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+body {
+  width: 100%;
+  /* overflow-x: hidden; */
+
+}
+.project-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('../images/birds.jpg');
+  background-size: cover;
+  background-position: center;
+  /* height: 100vh; */
+  /* background-attachment: fixed; */
+
+}
+
+
+.container{
+  width: 80%;
+  max-width: 100%;
+  margin:auto;
+  display:block;
+  text-align:center;
+  padding-top: 3%;
+}
+
+figure{
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid #FF7A0C;;
+  box-shadow: 0 0 5px rgb(82, 82, 82);
+  margin: 1em;
+}
+
+figure img{
+  height:100%;
+  width:100%;
+  -webkit-transition: all 0.5s linear;
+          transition: all 0.5s linear;
+  -webkit-transform: scale3d(1, 1, 1);
+          transform: scale3d(1, 1, 1);
+}
+
+figcaption div{
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;
+  top: 20px;
+  opacity: 0;
+  color:#E5C603 ;
+  text-transform: uppercase;
+}
+
+figcaption div:after{
+  position: absolute;
+  content: "";
+  left: 0; right: 0;
+  bottom: 40%;
+  text-align: center;
+  margin: auto;
+  width: 0%;
+  height: 2px;
+  background: #2c3e50;
+}
+
+
+figure:hover figcaption{
+  background: rgba(134, 134, 134, 0.8);
+}
+
+figcaption:hover div{
+  opacity: 1;
+  top: 0;
+}
+
+figcaption:hover div:after{
+  width: 50%;
+}
+
+figure:hover img{
+  -webkit-transform: scale3d(1.2, 1.2, 1);
+          transform: scale3d(1.2, 1.2, 1);
+}
+
+
+
+
+.icons-flex {
+  padding-bottom: 30px;
+  width: 70%;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* border: 1px solid black; */
+  align-self: flex-end;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 5%;
+  font-size: 1rem;
+}
+
+.icons-flex a {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    body {
+      width: 100%;
+      overflow-x: hidden;
+    }
+    .project-container {
+      width: 100%;
+      overflow-x: hidden;
+      height: 100vh;
+    }
+
+    figure{
+      width: 200px;
+      height: 200px;
+      overflow: hidden;
+      position: relative;
+      display: inline-block;
+      vertical-align: top;
+      border: 1px solid #FF7A0C;;
+      box-shadow: 0 0 5px rgb(82, 82, 82);
+      margin: 1em;
+    }
+    .container{
+      width: 70%;
+      overflow-x: hidden;
+      max-width: 100%;
+      margin:auto;
+      display:block;
+      text-align:center;
+      /* padding-top: 30%; */
+    }
+    .icons-flex {
+      font-size: 0.5rem;
+    }
+
+}
+
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+    body {
+      width: 100%;
+      overflow-x: hidden;
+
+    }
+    .project-container {
+      width: 100%;
+      height: 100vh;
+      overflow-x: hidden;
+    }
+
+
+}
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+    body {
+      width: 100%;
+      overflow-x: hidden;
+      height: 100vh;
+    }
+    .project-container {
+      width: 100%;
+      overflow-x: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      height: 100vh;
+    }
+
+
+}
