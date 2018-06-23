@@ -3,6 +3,9 @@ import '../styles/Projectpage.css'
 const ProjectPage = () => {
   return(
     <div className='project-container'>
+      <div className='text'>
+        <h2>Projects I have contributed to</h2>
+      </div>
         <div className = "container">
         <figure>
       <a href="https://www.tunelark.com/" target ='blank'>
@@ -48,7 +51,7 @@ const ProjectPage = () => {
           <i className="icons fa fa-github fa-5x" aria-hidden="true"></i>
         </div>
       </a>
-      <a href="mailto: mnawa31@gmail.com">
+      <a href="mailto: mnawa31@berkeley.edu">
       <div>
         <i className="icons fa fa-envelope fa-5x" aria-hidden="true">
         </i>

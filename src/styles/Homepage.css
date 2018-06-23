@@ -59,8 +59,11 @@
   and (max-device-width: 736px)
   and (-webkit-min-device-pixel-ratio: 3) {
     .homepage-container {
-      background-size:100%;
-      width:100%;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('../images/blur.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      background-attachment: inherit;
 
     }
     .text-box{
@@ -81,8 +84,11 @@
     }
 
     .homepage-container {
-      background-size:100%;
-      width:100%;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('../images/blur.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      background-attachment: inherit;
 
     }
 }

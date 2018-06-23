@@ -14,10 +14,11 @@
   color: white;
   font-weight: bold;
   font-family: 'Karla';
-  margin-left: 2%;
+  margin-left: 2.5%;
   padding-top: 8%;
   font-size: 2rem;
   width: 60%;
+  margin-bottom: 2%;
 }
 
 .row-container {
