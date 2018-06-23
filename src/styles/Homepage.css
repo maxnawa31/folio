@@ -1,0 +1,46 @@
+.homepage-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('../images/blur.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.text-box {
+  width: 50%;
+  /* border: 1px solid white; */
+  margin: 0 auto;
+  font-size: 2rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  color: rgb(173,177,177);
+
+}
+
+
+.name-text {
+  color: white;
+}
+
+
+.skills-text {
+  color: white;
+  margin-left: 10px;
+  border-bottom: 5px solid #FF7A0C;
+}
+
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .text-box{
+      width: 80%;
+      font-size: 1.25rem;
+
+
+    }
+}
