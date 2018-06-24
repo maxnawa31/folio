@@ -2,7 +2,7 @@
   "name": "another_portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://maxnawa31.github.io/mobile-responsive-portfolio/",
+  "homepage": "https://maxnawa31.github.io/portfolio/",
   "dependencies": {
     "font-awesome": "^4.7.0",
     "gh-pages": "^1.2.0",
